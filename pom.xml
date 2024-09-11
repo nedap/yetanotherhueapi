@@ -121,15 +121,10 @@
     </properties>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>libs-snapshots</name>
-            <url>http://${artifactory.server}:8081/artifactory/libs-snapshots-local</url>
-        </snapshotRepository>
         <repository>
-            <id>releases</id>
-            <name>libs-releases</name>
-            <url>http://${artifactory.server}:8081/artifactory/libs-releases-local</url>
+            <id>yetanotherhueapi</id>
+            <name>Renos Maven Repository server</name>
+            <url>https://maven.pkg.github.com/nedap/yetanotherhueapi</url>
         </repository>
     </distributionManagement>
 
